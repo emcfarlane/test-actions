@@ -8,6 +8,6 @@ jobs:
       # Run `git checkout`
       - uses: actions/checkout@v2
       # Install the `buf` CLI
-      - uses: bufbuild/buf-setup-action@eaff67fc03c67a2e26c997975183b92f55a30f3f
+      - uses: bufbuild/buf-setup-action@768c1330a818b057a63b89d322e93a736f639291
       # Ensure that `buf` is installed
       - run: buf --version
