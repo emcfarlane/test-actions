@@ -3,5 +3,5 @@ syntax = "proto3";
 package acme.v1;
 
 message Message {
-  string greeting = 1;
+  string greeting = 2;
 }
